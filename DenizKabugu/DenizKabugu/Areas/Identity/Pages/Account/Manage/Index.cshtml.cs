@@ -34,8 +34,29 @@ namespace DenizKabugu.Areas.Identity.Pages.Account.Manage
         public class InputModel
         {
             [Phone]
-            [Display(Name = "Phone number")]
+            [Display(Name = "Telefon Numarası")]
             public string PhoneNumber { get; set; }
+
+            [Required]
+            [Display(Name = "Doğum Tarihi")]
+            [DataType(DataType.Date)]
+            public DateTime DateOfBirth { get; set; }
+
+            [Required]
+            [Display(Name = "İsim")]
+            [DataType(DataType.Text)]
+            public string Name { get; set; }
+
+
+            [Required]
+            [Display(Name = "Soyisim")]
+            [DataType(DataType.Text)]
+            public string Surname { get; set; }
+
+            [Required]
+            [Display(Name = "Adres")]
+            [DataType(DataType.Text)]
+            public string Address { get; set; }
         }
 
         private async Task LoadAsync(WebUser user)
@@ -47,7 +68,11 @@ namespace DenizKabugu.Areas.Identity.Pages.Account.Manage
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                DateOfBirth = user.DateOfBirth,
+                Name = user.Name,
+                Surname = user.Surname,
+                Address= user.Address
             };
         }
 
@@ -78,6 +103,22 @@ namespace DenizKabugu.Areas.Identity.Pages.Account.Manage
             }
 
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+            if(Input.Name != user.Name)
+            {
+                user.Name = Input.Name;
+            }
+            if(Input.Surname != user.Surname)
+            {
+                user.Surname = Input.Surname;
+            }
+            if(Input.DateOfBirth != user.DateOfBirth)
+            {
+                user.DateOfBirth = Input.DateOfBirth;
+            }
+            if(Input.Address != user.Address)
+            {
+                user.Address = user.Address;
+            }
             if (Input.PhoneNumber != phoneNumber)
             {
                 var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);

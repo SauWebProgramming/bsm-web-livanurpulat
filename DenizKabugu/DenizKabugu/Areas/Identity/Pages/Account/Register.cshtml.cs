@@ -47,6 +47,28 @@ namespace DenizKabugu.Areas.Identity.Pages.Account
         public class InputModel
         {
             [Required]
+            [Name]
+            [DataType(DataType.Text)]
+            [Display(Name = "İsim")]
+            public string Name { get; set; }
+
+            [Required]
+            [Surname]
+            [DataType(DataType.Text)]
+            [Display(Name = "Soyisim")]
+            public string Surname { get; set; }
+
+
+            [Phone]
+            [DataType(DataType.PhoneNumber)]
+            [Display(Name = "Telefon")]
+            public string PhoneNumber { get; set; }
+
+            [Address]
+            [Display(Name = "Adres")]
+            public string Address { get; set; }
+
+            [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
@@ -54,12 +76,12 @@ namespace DenizKabugu.Areas.Identity.Pages.Account
             [Required]
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "Password")]
+            [Display(Name = "Şifre")]
             public string Password { get; set; }
 
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
-            [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+            [Display(Name = "Şifre Tekrarı")]
+            [Compare("Password", ErrorMessage = "Şifreler Eşleşmiyor.")]
             public string ConfirmPassword { get; set; }
         }
 
