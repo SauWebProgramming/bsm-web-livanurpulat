@@ -1,8 +1,13 @@
 ﻿@{
-    ViewData["Title"] = "Çiçek Kategorisi";
+    ViewData["Title"] = "Çicek Kategorisi";
 }
 
-@model IEnumerable<DenizKabugu.Models.Product>
-<h1>@ViewData["Title"]</h1>
+@model IEnumerable<DenizKabugu.Models.Category>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<h1> Çiçek Kategorisi</h1>
+<br />
+<h6>4 adet çiçek kategorimiz bulunmaktadır. </h6>
+<br />
+<body>
+    @Html.Partial("_Category", Model)
+</body>

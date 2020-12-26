@@ -1,5 +1,14 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Oyuncak Kategorisi";
 }
+
+@model IEnumerable<DenizKabugu.Models.Category>
+
+<h1> Oyuncak Kategorisi</h1>
+<br />
+<h6>3 adet oyuncak kategorisi bulunmaktadır. </h6>
+<br />
+
+<body>
+    @Html.Partial("_Category", Model)
+</body>
