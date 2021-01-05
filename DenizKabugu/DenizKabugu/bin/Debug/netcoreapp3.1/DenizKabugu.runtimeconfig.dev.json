@@ -1,8 +1,14 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
+<<<<<<< HEAD
+      "C:\\Users\\Asus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Asus\\.nuget\\packages"
+=======
       "C:\\Users\\sesra\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sesra\\.nuget\\packages"
+      "C:\\Users\\sesra\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+>>>>>>> 136ed0302dc925dedba04227a98213847cb21190
     ]
   }
 }

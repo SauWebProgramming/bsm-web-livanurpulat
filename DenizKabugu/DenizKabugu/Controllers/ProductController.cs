@@ -16,32 +16,56 @@ namespace DenizKabugu.Controllers
         {
             var categories = new List<Category>()
             {
-                new Category(){CategoryID=1, Name="Çiçek"},
-                new Category(){CategoryID=2, Name="Çikolata"},
+                new Category(){CategoryID=1, Name="Cicek"},
+                new Category(){CategoryID=2, Name="Cikolata"},
                 new Category(){CategoryID=3, Name="Kitap"},
                 new Category(){CategoryID=4, Name="Oyuncak"}
             };
             return View(categories);
         }
 
-        public IActionResult Cicek(Category cicek)
+        public IActionResult Cicek()
         {
-            return View(cicek);
+            var categories = new List<Category>()
+            {
+                new Category(){CategoryID=1, Name="Gül"},
+                new Category(){CategoryID=2, Name="Papatya"},
+                new Category(){CategoryID=3, Name="Karanfil"},
+                new Category(){CategoryID=4, Name="Lale"}
+            };
+            return View(categories);
         }
 
         public IActionResult Cikolata()
         {
-            return View();
+            var categories = new List<Category>()
+            {
+                new Category(){CategoryID=1, Name="Sütlü Çikolata"},
+                new Category(){CategoryID=2, Name="Bitter Çikolata"},
+                new Category(){CategoryID=3, Name="Beyaz Çikolata"},
+            };
+            return View(categories);
         }
 
         public IActionResult Oyuncak()
         {
-            return View();
+            var categories = new List<Category>()
+            {
+                new Category(){CategoryID=1, Name="Puzzle"},
+                new Category(){CategoryID=2, Name="Peluş"},
+                new Category(){CategoryID=3, Name="Oyun Seti"},
+            };
+            return View(categories);
         }
 
         public IActionResult Kitap()
         {
-            return View();
+            var categories = new List<Category>()
+            {
+                new Category(){CategoryID=1, Name="Simyacı"},
+                new Category(){CategoryID=2, Name="Fareler ve İnsanlar"},
+            };
+            return View(categories);
         }
 
     }

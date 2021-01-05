@@ -402,9 +402,18 @@ C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.dll
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.pdb
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.genruntimeconfig.cache
-C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cicek.cshtml.g.cs
-C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cikolata.cshtml.g.cs
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Kitap.cshtml.g.cs
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Oyuncak.cshtml.g.cs
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Product.cshtml.g.cs
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Category.cshtml.g.cs
+<<<<<<< HEAD
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cicek.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cikolata.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Kitap.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Oyuncak.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Product.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Category.cshtml.g.cs
+=======
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cicek.cshtml.g.cs
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Cikolata.cshtml.g.cs
+>>>>>>> 136ed0302dc925dedba04227a98213847cb21190
