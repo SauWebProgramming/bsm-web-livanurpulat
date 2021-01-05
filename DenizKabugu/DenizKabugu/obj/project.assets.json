@@ -8841,7 +8841,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sesra\\.nuget\\packages\\": {}
+    "C:\\Users\\sesra\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -8852,6 +8853,9 @@
       "packagesPath": "C:\\Users\\sesra\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\sesra\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

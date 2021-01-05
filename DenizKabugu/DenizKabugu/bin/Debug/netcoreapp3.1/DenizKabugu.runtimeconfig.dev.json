@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\sesra\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\sesra\\.nuget\\packages"
+      "C:\\Users\\sesra\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
