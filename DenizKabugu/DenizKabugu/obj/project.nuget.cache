@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "W+dJSVoTFqyA/K53Y7Vx2lwezjpNV8+ZnlfekYZnpQ6P11A/DSjiopOyXSphS4dQCvuCWQFZIavJ1Jc0nAN0mA==",
-=======
-  "dgSpecHash": "yZf5YbsJA+KabXIeMY6xioDTMyfTysYSZxrn07WDv2VwiA9RB8hiGcWmH/ZCFdumYfWGj5XyGJ+8DT7hCQefUg==",
->>>>>>> 136ed0302dc925dedba04227a98213847cb21190
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
   "expectedPackageFiles": [
@@ -177,5 +173,12 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Önbellek dosyası C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\obj\\project.nuget.cache okunurken bir sorun oluştu : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
