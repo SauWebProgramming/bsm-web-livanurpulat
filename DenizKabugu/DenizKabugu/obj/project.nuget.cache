@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W+dJSVoTFqyA/K53Y7Vx2lwezjpNV8+ZnlfekYZnpQ6P11A/DSjiopOyXSphS4dQCvuCWQFZIavJ1Jc0nAN0mA==",
+  "dgSpecHash": "JHWMp3MKWg7w9wBcKa++xS7gS06vDrhUo8cEeMWxE81EbkoCBE25rxs+acF+OWmEyIGuu74qTJLVSB0iQK5tvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
   "expectedPackageFiles": [
@@ -173,12 +173,5 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Önbellek dosyası C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\obj\\project.nuget.cache okunurken bir sorun oluştu : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
