@@ -13,5 +13,6 @@ namespace DenizKabugu.Data
             : base(options)
         {
         }
+        public DbSet<Product> Products { get; set; }
     }
 }
