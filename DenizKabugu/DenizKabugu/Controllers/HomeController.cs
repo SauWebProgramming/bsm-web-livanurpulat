@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using DenizKabugu.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -12,10 +13,27 @@ namespace DenizKabugu.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly UserManager<WebUser> _userManager;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, RoleManager<IdentityRole> roleManager, UserManager<WebUser> userManager)
         {
             _logger = logger;
+            _roleManager = roleManager;
+            _userManager = userManager;
+        }
+
+        public async Task<IActionResult> CreateRole(string role)
+        {
+            await _roleManager.CreateAsync(new IdentityRole(role));
+            return Ok();
+        }
+
+        public async Task<IActionResult> AddRole(string Username, string role)
+        {
+            var user = await _userManager.FindByNameAsync(Username);
+            await _userManager.AddToRolesAsync(user, role);
+            return Ok();
         }
 
         public IActionResult Index()

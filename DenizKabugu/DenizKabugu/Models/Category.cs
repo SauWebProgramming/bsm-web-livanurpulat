@@ -8,8 +8,12 @@ namespace DenizKabugu.Models
     public class Category
     {
         public int CategoryID { get; set; }
+
         public int ProductID { get; set; }
+
         public string Name { get; set; }
+
         public float Price { get; set; }
+
     }
 }
