@@ -32,7 +32,7 @@ namespace DenizKabugu.Controllers
         public async Task<IActionResult> AddRole(string Username, string role)
         {
             var user = await _userManager.FindByNameAsync(Username);
-            await _userManager.AddToRolesAsync(user, role);
+            await _userManager.AddToRoleAsync(user, role);
             return Ok();
         }
 
