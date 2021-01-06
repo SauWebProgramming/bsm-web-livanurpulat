@@ -28,7 +28,7 @@ namespace DenizKabugu.Controllers
         {
             var categories = new List<Category>()
             {
-                new Category(){CategoryID=1, Name="Gül"},
+                new Category(){CategoryID=1, Name="Gül", },
                 new Category(){CategoryID=2, Name="Papatya"},
                 new Category(){CategoryID=3, Name="Karanfil"},
                 new Category(){CategoryID=4, Name="Lale"}
@@ -52,7 +52,7 @@ namespace DenizKabugu.Controllers
             var categories = new List<Category>()
             {
                 new Category(){CategoryID=1, Name="Puzzle"},
-                new Category(){CategoryID=2, Name="Peluş"},
+                new Category(){CategoryID=2, Name="Oyuncak Ayı"},
                 new Category(){CategoryID=3, Name="Oyun Seti"},
             };
             return View(categories);
