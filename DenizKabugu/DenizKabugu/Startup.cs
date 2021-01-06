@@ -32,7 +32,11 @@ namespace DenizKabugu
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<WebUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
