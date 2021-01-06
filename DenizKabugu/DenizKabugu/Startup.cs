@@ -59,6 +59,8 @@ namespace DenizKabugu
             app.UseAuthentication();
             app.UseAuthorization();
 
+            SeedProduct.Seed(app);
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj": {
+    "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
         "projectName": "DenizKabugu",
-        "projectPath": "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
-        "packagesPath": "C:\\Users\\sesra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sesra\\Documents\\GitHub\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\DenizKabugu.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\bsm-web-livanurpulat\\DenizKabugu\\DenizKabugu\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sesra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,6 +57,10 @@
               "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.10, )"
             },
