@@ -26,6 +26,8 @@ namespace DenizKabugu.Controllers
             _userManager = userManager;
         }
 
+        
+
         public async Task<IActionResult> CreateRole(string role)
         {
             await _roleManager.CreateAsync(new IdentityRole(role));
