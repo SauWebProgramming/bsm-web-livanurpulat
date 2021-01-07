@@ -59,5 +59,14 @@ namespace DenizKabugu.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Hello World benzeri yerelleştirilmiş bir dize arar.
+        /// </summary>
+        internal static string Message {
+            get {
+                return ResourceManager.GetString("Message", resourceCulture);
+            }
+        }
     }
 }

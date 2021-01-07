@@ -1,5 +1,6 @@
 ﻿using DenizKabugu.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -11,9 +12,23 @@ namespace DenizKabugu.Controllers
 {
     public class ProductController : Controller
     {
+        private readonly IStringLocalizer<ProductController> _localizer;
+
+        public ProductController(IStringLocalizer<ProductController> localizer)
+        {
+            _localizer = localizer;
+        }
+
+        public IActionResult Index()
+        {
+            var message = _localizer["Message"];
+            ViewData["Message"] = message;
+            return View();
+        }
 
         public IActionResult Product()
         {
+
             var categories = new List<Category>()
             {
                 new Category(){CategoryID=1, Name="Cicek"},
