@@ -471,3 +471,4 @@ C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\net
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Properties.Resources.resources
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.csproj.GenerateResource.cache
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
