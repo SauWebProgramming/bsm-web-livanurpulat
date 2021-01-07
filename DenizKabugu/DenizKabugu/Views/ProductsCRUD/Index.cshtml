@@ -5,10 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<h1>ÜRÜNLER</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Yeni ürün oluştur.</a>
 </p>
 <table class="table">
     <thead>
@@ -39,8 +39,8 @@
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ProductID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>
+                <a asp-action="Details" asp-route-id="@item.ProductID">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.ProductID">Sil</a>
             </td>
         </tr>
 }
