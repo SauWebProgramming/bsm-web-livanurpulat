@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 
 namespace DenizKabugu.Controllers
 {
-    [Authorize]
+    
 
     public class HomeController : Controller
     {

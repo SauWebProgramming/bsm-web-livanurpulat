@@ -7,9 +7,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DenizKabugu.Data;
 using DenizKabugu.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DenizKabugu.Controllers
 {
+    [Authorize]
+
     public class ProductsCRUDController : Controller
     {
         private readonly ApplicationDbContext _context;
