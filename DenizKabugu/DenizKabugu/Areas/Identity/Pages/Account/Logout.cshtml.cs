@@ -30,7 +30,7 @@ namespace DenizKabugu.Areas.Identity.Pages.Account
         public async Task<IActionResult> OnPost(string returnUrl = null)
         {
             await _signInManager.SignOutAsync();
-            _logger.LogInformation("User logged out.");
+            _logger.LogInformation("Çıkış yapıldı.");
             if (returnUrl != null)
             {
                 return LocalRedirect(returnUrl);
