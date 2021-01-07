@@ -18,6 +18,7 @@ using Microsoft.Extensions.Logging;
 namespace DenizKabugu.Areas.Identity.Pages.Account
 {
     [AllowAnonymous]
+
     public class RegisterModel : PageModel
     {
         private readonly SignInManager<WebUser> _signInManager;

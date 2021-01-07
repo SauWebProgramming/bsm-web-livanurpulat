@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Threading.Tasks;
 using DenizKabugu.Data;
@@ -9,6 +10,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,8 +35,17 @@ namespace DenizKabugu
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<WebUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                
+                .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+            services.AddControllersWithViews()
+                .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
+                .AddDataAnnotationsLocalization();
             services.AddControllersWithViews();
+
             services.AddRazorPages();
         }
 
@@ -53,6 +65,19 @@ namespace DenizKabugu
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            var supportedCultures = new List<CultureInfo>
+            {
+                new CultureInfo("tr-TR"),
+                new CultureInfo("en-US"),
+            };
+
+            app.UseRequestLocalization(new RequestLocalizationOptions
+            {
+                SupportedCultures=supportedCultures,
+                SupportedUICultures=supportedCultures,
+                DefaultRequestCulture=new RequestCulture("tr-TR")
+            });
 
             app.UseRouting();
 
