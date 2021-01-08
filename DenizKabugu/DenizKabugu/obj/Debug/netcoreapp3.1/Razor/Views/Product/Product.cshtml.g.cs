@@ -26,8 +26,15 @@ using DenizKabugu.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Mvc.Localization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"558b5cb9d2192ae2b0a8336c19017608ad374e63", @"/Views/Product/Product.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dcd3b52bd7cedc0c2d8890c8bfae40e0633033f8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"26e70e58a41c3f84a40cb34250ea122aea8b85a9", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Product : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<DenizKabugu.Models.Category>>
     {
         #line hidden
@@ -72,7 +79,7 @@ Write(ViewData["Title"]);
 #line hidden
 #nullable disable
             WriteLiteral("</h1>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "558b5cb9d2192ae2b0a8336c19017608ad374e633680", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "558b5cb9d2192ae2b0a8336c19017608ad374e633899", async() => {
                 WriteLiteral("\r\n    ");
 #nullable restore
 #line 10 "C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\Product\Product.cshtml"
@@ -96,6 +103,8 @@ Write(Html.Partial("_Category", Model));
             WriteLiteral("\r\n");
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IViewLocalizer Localizer { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
