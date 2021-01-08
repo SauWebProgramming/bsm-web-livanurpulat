@@ -471,3 +471,11 @@ C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\net
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Properties.Resources.resources
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.csproj.GenerateResource.cache
 C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\bin\Debug\netcoreapp3.1\en-US\DenizKabugu.resources.dll
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\bin\Debug\netcoreapp3.1\tr-TR\DenizKabugu.resources.dll
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Resources.Controllers.ProductController.en-US.resources
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Resources.Controllers.ProductController.tr-TR.resources
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\en-US\DenizKabugu.resources.dll
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\tr-TR\DenizKabugu.resources.dll
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Resources.View.Product.Index.en-US.resources
+C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\obj\Debug\netcoreapp3.1\DenizKabugu.Resources.Views.Product.Index.tr-TR.resources

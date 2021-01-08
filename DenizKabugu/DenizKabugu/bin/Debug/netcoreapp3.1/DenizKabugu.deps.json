@@ -298,6 +298,14 @@
         "runtime": {
           "DenizKabugu.dll": {}
         },
+        "resources": {
+          "en-US/DenizKabugu.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/DenizKabugu.resources.dll": {
+            "locale": "tr-TR"
+          }
+        },
         "compile": {
           "DenizKabugu.dll": {}
         }

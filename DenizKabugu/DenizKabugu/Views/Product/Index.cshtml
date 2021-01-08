@@ -1,5 +1,14 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+
 @{
+    ViewData["Title"]=Localizer["Product/Index"];
 }
+
+
+<h1> index </h1>
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+
+<h1>@Localizer["Merhaba"]</h1>
+<h2>@Localizer["Message"]</h2>
