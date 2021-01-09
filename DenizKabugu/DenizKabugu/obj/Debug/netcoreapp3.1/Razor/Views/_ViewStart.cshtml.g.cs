@@ -27,7 +27,7 @@ using DenizKabugu.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\sesra\Documents\GitHub\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\_ViewImports.cshtml"
+#line 4 "C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Mvc.Localization;
 
 #line default

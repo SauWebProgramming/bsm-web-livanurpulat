@@ -26,8 +26,15 @@ using DenizKabugu.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Mvc.Localization;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"846adeda9672b15707b1e6874738f9b352388acf", @"/Views/Shared/_Category.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"dcd3b52bd7cedc0c2d8890c8bfae40e0633033f8", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"26e70e58a41c3f84a40cb34250ea122aea8b85a9", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__Category : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<DenizKabugu.Models.Category>>
     {
         #line hidden
@@ -64,7 +71,7 @@ using DenizKabugu.Models;
 #line hidden
 #nullable disable
             WriteLiteral("            <div class=\"row\">\r\n                <div id=\" sidebar\" class=\"span3\">\r\n                    <div class=\"well well-small\">\r\n                        <ul class=\"nav nav-list\">\r\n                            <li class=\"active\">");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "846adeda9672b15707b1e6874738f9b352388acf3710", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "846adeda9672b15707b1e6874738f9b352388acf3929", async() => {
 #nullable restore
 #line 11 "C:\Users\Asus\Desktop\bsm-web-livanurpulat\DenizKabugu\DenizKabugu\Views\Shared\_Category.cshtml"
                                                                      Write(item.Name);
@@ -105,6 +112,8 @@ using DenizKabugu.Models;
             WriteLiteral("    </ul>\r\n</div>\r\n\r\n");
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
+        public IViewLocalizer Localizer { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
         public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
