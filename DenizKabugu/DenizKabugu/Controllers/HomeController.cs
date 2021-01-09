@@ -7,6 +7,7 @@ using DenizKabugu.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 
 namespace DenizKabugu.Controllers
@@ -15,6 +16,7 @@ namespace DenizKabugu.Controllers
 
     public class HomeController : Controller
     {
+
         private readonly ILogger<HomeController> _logger;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<WebUser> _userManager;
@@ -25,8 +27,6 @@ namespace DenizKabugu.Controllers
             _roleManager = roleManager;
             _userManager = userManager;
         }
-
-        
 
         public async Task<IActionResult> CreateRole(string role)
         {
